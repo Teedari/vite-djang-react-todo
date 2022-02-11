@@ -1,0 +1,21 @@
+$bg-color: #121212;
+
+html, body{
+  background: $bg-color !important;
+  color: #f5f5f5 !important;
+  font-size: 1rem !important;
+ 
+}
+
+
+.mobile-layout{
+  
+  &-outer{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
