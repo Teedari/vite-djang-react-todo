@@ -33,11 +33,7 @@
 <body>
 
   <div id="root"></div>
-  {{ data|json_script:"mydata" }}
-  <script>
-    const mydata = JSON.parse(document.getElementById('mydata').textContent);
-    console.log(mydata)
-  </script>
+
   {% if debug %}
   <!-- This url will be different for each type of app. Point it to your main js file. -->
   <script type="module" src="http://localhost:3000/main.jsx"></script>

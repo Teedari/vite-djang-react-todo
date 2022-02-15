@@ -34,9 +34,7 @@ const Homepage = () => {
           <Typography>Sit veniam do labore culpa voluptate proident.</Typography>
         </Card>
       </div>
-          {/* <Form>
-            <Input suffix={<FontAwesomeIcon icon={faPaperPlane} />}/>
-          </Form> */}
+  
     </MobileLayout>
   )
 }

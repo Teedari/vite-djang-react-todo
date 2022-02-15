@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import CreateTodo from './pages/CreateTodo'
 
 function App() {
- 
+  // const history = useHist
 
   return (
     <div className="mobile-layout-outer">
